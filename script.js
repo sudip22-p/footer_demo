@@ -10,9 +10,9 @@ btn.addEventListener("click",()=>{
         as[i].classList.toggle("white");
     }
     const btnMode = btn.textContent;
-    if(btnMode=="Dark"){
-        btn.textContent="Light";
+    if(btnMode=="D"){
+        btn.textContent="L";
     }else{
-        btn.textContent="Dark";
+        btn.textContent="D";
     }
 });
